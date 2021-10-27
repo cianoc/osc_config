@@ -1,0 +1,15 @@
+Config(
+    local_port: 19000,
+    address: "127.0.0.1",
+    port: 8000,
+    synths: {
+        "kick": [
+            ("attack", 2.1),
+            ("decay", 2.1),
+        ],
+	"snare": [
+	    ("attack", 3.4),
+	    ("decay2", 33),
+	]
+    }
+)
